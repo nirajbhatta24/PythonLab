@@ -8,6 +8,7 @@
 classes_held=int(input("Enter the number of classes held"))
 classes_attended=int(input("Enter the number of classes attended"))
 attendence=float(classes_attended/classes_held)*100
+
 if attendence>=75:
     print("you are allowed to sit in exam")
 else:
